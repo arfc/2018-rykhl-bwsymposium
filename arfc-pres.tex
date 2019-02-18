@@ -7,15 +7,16 @@
 \documentclass[9pt]{beamer}
 \usetheme[white]{Illinois}
 %\title[short title]{long title}
-\title{Advanced Online Reprocessing Simulation for Thorium-Fueled Molten Salt Breeder Reactor}
+\title{Simulation of Molten Salt Reactors with Moltres}
 %\subtitle[short subtitle]{long subtitle}
 %\subtitle[Short SubTitle]{Mostly Kittens}
 %\author[short name]{long name}
-\author[Andrei Rykhlevskii]{Andrei Rykhlevskii, PI: Kathryn Huff\\Advanced Reactors and Fuel Cycles Group}
+\author[Andrei Rykhlevskii]{Andrei Rykhlevskii\inst{1}, Alexander Lindsay\inst{2}, Kathryn Huff\inst{1}\\Advanced Reactors and Fuel Cycles Group}
 %\date[short date]{long date}
-\date[04.06.2018]{June 04, 2018}
+\date[02.26.2019]{Feb 26, 2019}
 %\institution[short name]{long name}
-\institute[UIUC]{University of Illinois at Urbana-Champaign}
+\institute[UIUC]{\inst{1} University of Illinois at Urbana-Champaign \and \inst{2} Idaho National Laboratory}
+
 
 \usepackage{lmodern}
 
@@ -99,14 +100,14 @@
 
 \section{Introduction}
 \input{introduction}
-\section{Methodology}
-\input{method}
-\section{Results}
-\input{results}
-\section{Conclusions}
-\input{conclusion}
-\section{Acknowledgements}
-\input{acks}
+%\section{Methodology}
+%\input{method}
+%\section{Results}
+%\input{results}
+%\section{Conclusions}
+%\input{conclusion}
+%\section{Acknowledgements}
+%\input{acks}
 %%--------------------------------%%
 %%--------------------------------%%
 \begin{frame}[allowframebreaks]
@@ -119,72 +120,6 @@
 %%--------------------------------%%
 %%---BACKUP SLIDES----------------%%
 
-\begin{frame}
-  \frametitle{Processing options for \gls{MSR} fuels}
-               \begin{figure}[t]
-                \vspace*{-0.1in}
-			\hspace{-0.3in}
-                \includegraphics[height=0.6\textwidth]{./images/periodic_map.png}
-               \end{figure}
-              
-\end{frame}
-
-\begin{frame}
-  \frametitle{BUBBLE GENERATOR AND GAS SEPARATOR for \gls{MSBR}}
-               \begin{figure}[t]
-                \vspace*{-0.1in}
-                \includegraphics[height=0.7\textwidth]{./images/gas_separation.png}
-               \end{figure}
-              
-\end{frame}
-
-\begin{frame}
-  \frametitle{Chemical processing facility for \gls{MSBR}}
-               \begin{figure}[t]
-                \vspace*{-0.1in}
-                \includegraphics[height=0.65\textwidth]{./images/flowsheet.pdf}
-               \end{figure}
-              
-\end{frame}
-
-\begin{frame}
-  \frametitle{Multiplication factor dynamics during Rb, Sr, Cs, Ba removal (3435days)}
-               \begin{figure}[t]
-                \vspace*{-0.1in}
-                \includegraphics[height=0.7\textwidth]{./images/keff_3435st.png}
-               \end{figure}
-              
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{\gls{MSBR} neutron energy spectrum for different regions}
-               \begin{figure}[t]
-                \vspace*{-0.1in}
-                \includegraphics[height=0.35\textwidth]{./images/spectrum_zones_init.png}
-               \end{figure}
-               \begin{figure}[t]
-                \vspace*{-0.1in}
-                \includegraphics[height=0.35\textwidth]{./images/spectrum_zones_eq.png}
-               \end{figure}
-              
-\end{frame}
-
-\begin{frame}
-  \frametitle{Fissile isotopes producing in \gls{MSBR} core}
-  \begin{columns}
-    \column[t]{6cm}
-               \begin{figure}[t]
-                \vspace*{-0.1in}
-                \includegraphics[height=0.75\textwidth]{./images/fissile_short.png}
-               \end{figure}
-    \column[t]{6cm}
-               \begin{figure}[t]
-                \vspace*{-0.1in}
-                \includegraphics[height=0.75\textwidth]{./images/fissile_long.png}
-               \end{figure}
-    \end{columns}              
-\end{frame}
 
 \begin{frame}
   \frametitle{\gls{MSBR} plain view}
@@ -193,25 +128,6 @@
                 \includegraphics[height=0.75\textwidth]{./images/msbr_plain.png}
                \end{figure}
               
-\end{frame}
-
-\begin{frame}
-  \frametitle{Generation IV Reactors}
-              \begin{block}{Goals for Generation IV Nuclear Energy Systems}
-               \begin{enumerate}
-                \item Sustainability
-                \item Economics
-                \item Safety and Reliability
-                \item Proliferation Resistance and Physical Protection
-               \end{enumerate}
-               \end{block}
-               \begin{figure}[t]
-                \vspace*{-0.11in}
-		\hspace*{-0.15in}
-                \includegraphics[height=0.43\textwidth]{./images/gen4_road_map.png}
-                \vspace*{-0.1in}
-                \caption{A Technology Roadmap for Gen IV Nuclear Energy Systems.}
-               \end{figure}            
 \end{frame}
 
 \end{document}
